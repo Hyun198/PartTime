@@ -79,7 +79,6 @@ function App() {
       <div className="card">
         <Link />
         <div className="container">
-
           <div className="card-content">
             <h2>주4</h2>
             <input
