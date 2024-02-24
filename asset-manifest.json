@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PartTime/static/css/main.d6870a09.css",
+    "main.js": "/PartTime/static/js/main.74645673.js",
+    "static/media/cgv_black.png": "/PartTime/static/media/cgv_black.e0aad4e3eb9e1c417e48.png",
+    "static/media/cgv logo.png": "/PartTime/static/media/cgv logo.f45782b2d829b3a24c43.png",
+    "index.html": "/PartTime/index.html",
+    "main.d6870a09.css.map": "/PartTime/static/css/main.d6870a09.css.map",
+    "main.74645673.js.map": "/PartTime/static/js/main.74645673.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6870a09.css",
+    "static/js/main.74645673.js"
+  ]
+}
