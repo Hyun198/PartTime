@@ -6,6 +6,10 @@
     transition: 0.5s ease-in-out;
 }
 
+.head-line {
+    font-size: 3rem;
+    font-weight: 600;
+}
 
 .cgv-link img {
     width: 100%;
