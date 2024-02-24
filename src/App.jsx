@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import moment from "moment";
+import Header from './Header/header';
 import Movie from './Movie/Movie';
+import Link from './cgvLink/Link';
 import "./App.css";
-import cgv_logo from "./assets/cgv logo.png";
-import cgv_black from './assets/cgv_black.png';
+
+
 function App() {
   const [inputTime, setInputTime] = useState({ hour: "", minute: "" });
   const [resultTime, setResultTime] = useState("");
@@ -38,16 +40,12 @@ function App() {
 
   return (
     <>
-      <div className="header">
-        <img src={cgv_logo} alt="" className="header_img" />
-      </div>
+      <Header />
       <div className="movies-data">
         <Movie />
       </div>
       <div className="card">
-        <div className="section">
-          <a href="http://www.cgv.co.kr/theaters/?areacode=02&theaterCode=0298&date=20240214"><img src={cgv_black} alt="" /></a>
-        </div>
+        <Link />
 
         <div className="card-content">
           <h3 className="content-header">시간 계산기</h3>

@@ -1,0 +1,14 @@
+.cgv-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.cgv-link img {
+    width: 100%;
+    height: 150px;
+    border-radius: 30px;
+}
