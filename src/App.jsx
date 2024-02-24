@@ -41,9 +41,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="movies-data">
+      {/* <div className="movies-data">
         <Movie />
-      </div>
+      </div> */}
       <div className="card">
         <Link />
 
