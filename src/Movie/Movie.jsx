@@ -37,7 +37,7 @@ function Movie() {
 
     const getPoster = async (title, openDt) => {
         const KMDB_API_KEY = 'Q0YF214E5O2XQR10ZF51';
-        const url = `http://api.koreafilm.or.kr/openapi-data2/wisenut/search_api/search_json2.jsp?collection=kmdb_new2&detail=Y&listCount=30&query=${title}&releaseDts=${openDt}&ServiceKey=${KMDB_API_KEY}`
+        const url = `https://api.koreafilm.or.kr/openapi-data2/wisenut/search_api/search_json2.jsp?collection=kmdb_new2&detail=Y&listCount=30&query=${title}&releaseDts=${openDt}&ServiceKey=${KMDB_API_KEY}`
         const response = await fetch(url);
         const data = await response.json();
         const poster = data.Data[0].Result[0].posters;
