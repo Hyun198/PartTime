@@ -1,4 +1,5 @@
 .header-container {
+    position: relative;
     background-color: #222;
     width: 100vw;
     height: 150px;
@@ -6,10 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .header_img {
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-position: center;
     background-size: cover;
 }

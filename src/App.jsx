@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import moment from "moment";
 import Header from './Header/header';
 import Movie from './Movie/Movie';
-import Link from './cgvLink/Link';
 import "./App.css";
 
 
@@ -77,7 +76,6 @@ function App() {
         <Movie />
       </div> */}
       <div className="card">
-        <Link />
         <div className="container">
           <div className="card-content">
             <h2>주4</h2>
