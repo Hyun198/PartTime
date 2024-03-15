@@ -10,6 +10,6 @@
     -배포되어 있는 웹에는 적용되어 있지 않음. (코드만 있음)
     -http 와 netfify https정책 문제로 배포가 불가
 
-    [자세한 사용 설명] (https://velog.io/@hwn123h/%EC%98%81%ED%99%94-%EC%A3%BC%EB%A7%90%EC%A3%BC%EA%B0%84-%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4)
+    [자세한 사용 설명](https://velog.io/@hwn123h/%EC%98%81%ED%99%94-%EC%A3%BC%EB%A7%90%EC%A3%BC%EA%B0%84-%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4)
 
 ㄴ
